@@ -18,6 +18,6 @@ app.set('view engine', 'mustache');
 const router = require('./routes/pageRoutes');
 app.use('/', router);
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log('Server started on port 3000. Ctrl^c to quit.');
-})
+    })  
