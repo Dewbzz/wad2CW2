@@ -8,7 +8,7 @@ If using powershell type <node index> into the terminal instead
 
 ##### Features todo list
 - [x] Install needed dependencies such as Express, CSS, NEDB, mustache-express and dotenv with bcrypt  
-[x] Set up a working Index page to properly call on dependancies to be passed to other functions such as routes and controllers  
+- [x] Set up a working Index page to properly call on dependancies to be passed to other functions such as routes and controllers  
 [x] Initiated database with add entry function  
 [ ] Add delete function to remove data from database  
 [x] Seeded database with a couple of entries for testing purposes  
