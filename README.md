@@ -31,4 +31,8 @@ If using powershell type <node index> into the terminal instead
 - [x] Created the userModel file and added a couple of users for testing <ins>(username: peter password: password)</ins>
 - [x] Implement the sign in functionality with page routing and controllers
 - [x] Added extra functionality so if incorrect login is entered, user is sent back to home page
-- [x] 
+- [x] Changed the header to only show certain functions when a user is logged in
+- [x] Added the auth file to handle authorisation of users
+- [x] Added JsonWebToken to handle cookies and authentication tokens
+- [x] Ensured only signed in users can post new dishes and view all available dishes in the database
+- [ ] Add chefs special functionality
