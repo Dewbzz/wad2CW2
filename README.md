@@ -29,5 +29,6 @@ If using powershell type <node index> into the terminal instead
 - [x] Implemented a registration page and function (not used for this application but could be incorporated later for adding new users by an admin user?)
 - [x] Added a login button with page functionality 
 - [x] Created the userModel file and added a couple of users for testing <ins>(username: peter password: password)</ins>
-- [x] 
+- [x] Implement the sign in functionality with page routing and controllers
+- [x] Added extra functionality so if incorrect login is entered, user is sent back to home page
 - [x] 
