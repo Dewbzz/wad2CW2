@@ -9,9 +9,24 @@ If using powershell type <node index> into the terminal instead
 ##### Features todo list
 - [x] Install needed dependencies such as Express, CSS, NEDB, mustache-express and dotenv with bcrypt  
 - [x] Set up a working Index page to properly call on dependancies to be passed to other functions such as routes and controllers  
-[x] Initiated database with add entry function  
-[ ] Add delete function to remove data from database  
-[x] Seeded database with a couple of entries for testing purposes  
-[x] Create and sort folders for files  
-[x] Create the routes and controller functions to link together  
-[x] 
+- [x] Initiated database with add entry function  
+- [ ] Add delete function to remove data from database  
+- [x] Seeded database with a couple of entries for testing purposes  
+- [x] Create and sort folders for files  
+- [x] Create the routes and controller functions to link together  
+- [x] Sourced a great looking restuarant landing page from CodeCary - modified to link with routes and controllers  
+- [x] Ensure the routes and controllers work and show up on the new landing page  
+- [x] Add the models for the dishes  
+- [x] Add the entries page to pass the model to the site
+- [x] Add another page to enable logged in users to add new entries to the database
+- [ ] Ensure entries are saving to the database
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
