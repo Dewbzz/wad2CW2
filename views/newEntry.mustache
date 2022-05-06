@@ -1,0 +1,51 @@
+<html>
+
+{{>partials/head}}
+{{>partials/header}}
+<section class="home" id="home">
+    <div class="home__container bd-container bd-grid">
+
+        <body class="container">
+            <h2>Write a new dish</h2>
+            <form method="post" role="/new">
+                <div class="form-group">
+                    <label for="dishName">Name of Dish</label>
+                    <input type="text" class="form-control" id="dishName" name="dishName" placeholder="Dish Name"
+                        required>
+                </div>
+                    <div class="form-group">
+                        <label for="description">Describe the Dish</label>
+                        <input type="text" class="form-control" id="description" name="description" placeholder="Describe your dish"
+                            required>
+                    </div>
+                        <div class="form-group">
+                            <label for="ingredients">Ingredients</label>
+                            <input type="text" class="form-control" id="ingredients" name="ingredients" placeholder="Ingredients"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dishType">Type of Cuisine</label>
+                            <input type="text" class="form-control" id="dishType" name="dishType"
+                                placeholder="Dish Name" required>
+                        </div>
+                            <div class="form-group">
+                                <label for="advice">Any Special Advice?</label>
+                                <input type="text" class="form-control" id="advice" name="advice"
+                                    placeholder="Allergens etc" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="advice">Price</label>
+                                <input type="text" class="form-control" id="price" name="price"
+                                    placeholder="Price" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Post entry" class="btn btn-primary">
+                            </div>
+                        </form>
+        </body>
+    </div>
+    {{>partials/js}}
+</section>
+
+
+</html>

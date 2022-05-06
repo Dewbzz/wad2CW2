@@ -1,0 +1,32 @@
+<html>
+
+{{>partials/head}}
+{{>partials/header}}
+<section class="home" id="home">
+    <div class="home__container bd-container bd-grid">
+
+<body>
+
+    <h1>{{title}}</h1>
+    {{#entries}}
+    <div>
+        <div>
+            <h4>Dish: {{dishName}}</h4>
+            <p>
+                Description: {{description}}
+            </p>
+            <div class="card-footer">
+               <p> Cuisine: <a href="/menu/{{dishType}}">{{dishType}}</a></p>
+            </div>
+            <div>
+                Dietary Advice: {{advice}}
+            </div>
+        </div>
+        {{/entries}}
+        
+</body>
+
+    </div>
+    {{>partials/js}}
+</section>
+</html>
