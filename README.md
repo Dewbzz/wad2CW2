@@ -36,3 +36,6 @@ If using powershell type <node index> into the terminal instead
 - [x] Added JsonWebToken to handle cookies and authentication tokens
 - [x] Ensured only signed in users can post new dishes and view all available dishes in the database
 - [ ] Add chefs special functionality
+
+## Link to deployed site
+https://wad2courseworksite2.herokuapp.com/
