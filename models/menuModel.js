@@ -46,8 +46,6 @@ class Menu {
                     //if no error resolve the promise & return the data
                 } else {
                     resolve(entries);
-                    //to see what the returned data looks like
-                    console.log('function all() returns: ', entries);
                 }
             })
         })
