@@ -7,7 +7,7 @@ If using bash type <node index.js> into the terminal to start site
 If using powershell type <node index> into the terminal instead
 
 ##### Features todo list
-[x] Install needed dependencies such as Express, CSS, NEDB, mustache-express and dotenv with bcrypt  
+- [x] Install needed dependencies such as Express, CSS, NEDB, mustache-express and dotenv with bcrypt  
 [x] Set up a working Index page to properly call on dependancies to be passed to other functions such as routes and controllers  
 [x] Initiated database with add entry function  
 [ ] Add delete function to remove data from database  
