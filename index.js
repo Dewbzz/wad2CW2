@@ -20,4 +20,4 @@ app.use('/', router);
 
 app.listen(process.env.PORT, () => {
     console.log('Server started on port 3000. Ctrl^c to quit.');
-    })  
+    })
